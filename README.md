@@ -41,10 +41,6 @@ python predict.py
 
 `predict.py` uses each team's real Elo/efficiency as of their last game in the dataset (end of 2023-24). You just tell it the rest days for each team and, if you have them, the actual odds you're seeing right now.
 
-## If you want to make this better
-
-The obvious next step is real historical odds so you can actually backtest P&L instead of just predicting winners. A couple real datasets exist for that — [MGM Grand NBA data on Kaggle](https://www.kaggle.com/datasets/caseydurfee/mgm-grand-nba-betting-data) has real closing lines from 2021 on. Join it to this project's game data on date + team and you'd have a real, honest backtest.
-
 ## Stack
 
 Python, pandas, scikit-learn (logistic regression + gradient boosting + a small neural net, ensembled together), scipy for the Kelly optimization.
