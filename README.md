@@ -1,6 +1,6 @@
 # nba-predict
 
-A model that predicts NBA game outcomes using real historical data. Started this because I wanted a project that actually used real data end to end instead of another toy dataset — so everything here is trained and tested on real NBA.com game logs, not anything simulated.
+A model that predicts NBA game outcomes using real historical data. Started this because I wanted a project that actually used real data end to end instead of another toy dataset, so everything here is trained and tested on real NBA.com game logs, not anything simulated.
 
 ## What it does
 
